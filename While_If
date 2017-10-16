@@ -1,0 +1,39 @@
+while True:
+    print('what is your name')  #1   print
+    name=input()                #2   input
+    
+    if name != 'cindie':        #3   T/F? ; FALSE = skip to next immediately
+        print('incorrect')
+        continue
+    
+    print('password')           #4   print
+    password=input()            #5   input
+
+    if password != 'cat':       #6   T/F? if False move on. If TRUE stop here.
+        print('go to jail')
+        continue
+    
+    if password == 'cat':       #6    T/F? ; TRUE = continue in this block
+        print('you may enter')
+        break
+
+print('nice')
+
+
+# all functions STOP when they reach a TRUE statement
+
+while True:
+    print('so you like me? yes or no')
+    feelings = input()
+
+    if feelings != 'yes':
+        print('I think you answered incorrectly')
+        continue
+
+    print ('so you like, like me a lot?')
+    how_much = input()
+
+    if how_much == 'yes':
+        print('I knew it!')
+        break
+    
