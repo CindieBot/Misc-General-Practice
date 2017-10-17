@@ -1,0 +1,9 @@
+
+#In mathematics and computing, hexadecimal (also base 16, or hex)
+#is a positional numeral system with a radix, or base, of 16.
+#It uses sixteen distinct symbols, most often the symbols 0–9
+#to represent values zero to nine, and A, B, C, D, E, F
+#(or alternatively a, b, c, d, e, f) to represent values ten to fifteen.
+
+A0, B1,C2,D3,E4,F5,G6,H7,I8,J9;  ???
+a10, b11, c12, d13, e14, f15, g16, h17, i18, j19  ????
